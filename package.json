@@ -1,0 +1,15 @@
+{
+  "name": "nmms-bot",
+  "version": "1.0.0",
+  "description": "NMMS Quiz Telegram Bot",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  }
+}
